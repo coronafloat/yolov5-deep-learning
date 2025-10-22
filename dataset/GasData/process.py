@@ -11,14 +11,14 @@ import glob, os
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Directory where the data will reside, relative to 'darknet.exe'
-path_data = 'dataset/GasData/'
+path_data = 'dataset/HandData/'
 
 # Percentage of images to be used for the test set
 percentage_test = 30;
 
 # Create and/or truncate train.txt and test.txt
-file_train = open('trainGasData.txt', 'w')  
-file_test = open('testGasData.txt', 'w')
+file_train = open('trainhandData.txt', 'w')  
+file_test = open('testhandData.txt', 'w')
 
 # Populate train.txt and test.txt
 counter = 1
