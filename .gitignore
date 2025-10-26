@@ -11,7 +11,7 @@
 *.TIF
 *.TIFF
 *.HEIC
-*.mp4
+# *.mp4
 *.mov
 *.MOV
 *.avi
